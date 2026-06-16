@@ -42,4 +42,3 @@ When possible, prefer SVG for scalable usage and PNG for compatibility with tool
 This repository is the canonical source for VSlices iconography.
 
 If an icon asset needs to be updated, update it here first and then propagate the generated files to the repositories that consume them.
-```
