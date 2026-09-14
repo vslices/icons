@@ -9,6 +9,7 @@ It acts as the source of truth for the visual symbols used across the VSlices su
 * VSlices Design
 * VSlices Docs Standard
 * VSlices Method
+* ActorChannel
 
 ## Purpose
 
@@ -23,6 +24,12 @@ The official VSlices icon represents the shared identity of the VSlices suite.
 It should be used as the primary visual mark for VSlices and its connected products unless a more specific usage rule is defined later.
 
 Product-specific differentiation should normally happen through naming, context, layout, or documentation structure rather than separate logos.
+
+### Contextual product marks
+
+A product may define a small contextual extension of the official VSlices mark when its runtime surface benefits materially from visual distinction, such as a browser toolbar icon. These marks should preserve the VSlices glyph as the dominant identity and add only the minimum product-specific motif required by the context.
+
+Canonical contextual marks live under `products/<product>/`. Generated raster assets may be copied into product repositories when required by packaging or runtime tooling.
 
 ## Usage
 
